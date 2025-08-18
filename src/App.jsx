@@ -738,7 +738,7 @@ export default function App() {
         onInteract={markInteract}
       />
       <GameOverOverlay gameOver={gameOver} />
-      <div className="absolute bottom-4 left-4 text-xs text-white/70 pointer-events-none">
+      <div className="absolute bottom-4 left-4 text-xs text-white/70 z-[50]">
         Vibe Coded. Contribute here: <a href="https://github.com/rjjoaquin/tetris-on-vibes">Github Repo</a>
       </div>
     </div>
