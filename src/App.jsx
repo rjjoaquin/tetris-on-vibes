@@ -739,7 +739,7 @@ export default function App() {
       />
       <GameOverOverlay gameOver={gameOver} />
       <div className="absolute bottom-4 left-4 text-xs text-white/70 pointer-events-none">
-        Prototype build. Physics and rotations are simplified for clarity.
+        Vibe Coded. Contribute here: <a href="https://github.com/rjjoaquin/tetris-on-vibes">Github Repo</a>
       </div>
     </div>
   );
